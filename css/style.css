@@ -100,7 +100,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
-	font-size: 22px;
+	font-size: 30px;
 	color: #85b887;
 	font-weight: 400;
 	text-transform: uppercase;
