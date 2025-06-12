@@ -199,7 +199,35 @@ header .intro-text {
 	padding-top: 300px;
 	padding-bottom: 200px;
 	text-align: center;
+	-webkit-animation: focus-in-expand 2s ease-in-out both;
+	        animation: focus-in-expand 2s ease-in-out both;
 }
+@-webkit-keyframes focus-in-expand {
+	0% {
+	  letter-spacing: -0.5em;
+	  -webkit-filter: blur(12px);
+			  filter: blur(12px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-filter: blur(0px);
+			  filter: blur(0px);
+	  opacity: 1;
+	}
+  }
+  @keyframes focus-in-expand {
+	0% {
+	  letter-spacing: -0.5em;
+	  -webkit-filter: blur(12px);
+			  filter: blur(12px);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-filter: blur(0px);
+			  filter: blur(0px);
+	  opacity: 1;
+	}
+  }
 /* About Section */
 #about {
 	padding: 120px 0;
